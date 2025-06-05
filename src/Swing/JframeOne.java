@@ -7,6 +7,6 @@ public class JframeOne extends JFrame{
     }
 
     public void initialize(){
-        setTitle
+        setTitle("Hello");
     }
 }
