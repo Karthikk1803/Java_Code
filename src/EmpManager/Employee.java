@@ -41,4 +41,27 @@ public class Employee {
         return "";
     }
 
+    public void setDesignation(String designation) {
+        this.designation = designation;
+    }
+
+    public void setReporting(String reporting) {
+        this.reporting = reporting;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
