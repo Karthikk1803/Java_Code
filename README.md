@@ -1,1 +1,1 @@
-Me doing something (i have no clue why).
+Me doing something (I have no clue why).
