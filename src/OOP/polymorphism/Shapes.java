@@ -1,7 +1,7 @@
 package OOP.polymorphism;
 
 public class Shapes {
-    void area() {
+    static void area() {
         System.out.println("Inside Shapes");
     }
 }
