@@ -11,6 +11,8 @@ public class Fraction {
         int y =  Math.round((float) (in - x) * 100000);
         int gcd = gcd(par, y);
 
+
+        System.out.println();
         y /= gcd; par /= gcd;
         System.out.println(x + " " + y + "/" + par);
 

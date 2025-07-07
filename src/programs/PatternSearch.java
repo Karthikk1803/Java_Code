@@ -89,9 +89,7 @@ public class PatternSearch {
 */
 
 package programs;
-
 import java.util.*;
-
 public class PatternSearch {
 
     public static void main(String[] args) {
@@ -120,7 +118,7 @@ public class PatternSearch {
                 while (i < text.length() && text.charAt(i) == pc) i++;
                 j += 2;
             }
-
+//            text.inde
             else if (j + 1 < pattern.length() && pattern.charAt(j + 1) == '+') {
                 if (text.charAt(i) != pc) return "";
                 while (i < text.length() && text.charAt(i) == pc) i++;

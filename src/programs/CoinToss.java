@@ -7,7 +7,6 @@ public class CoinToss {
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt(); //Number of Tosses
         int r=sc.nextInt(); //Number of Head
-
         System.out.println(c_head(n,r));
     }
 

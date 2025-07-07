@@ -1,7 +1,11 @@
 package OOP.polymorphism;
 
 class Circle extends Shapes {
-    public void area() {
+    public static void area() {
         System.out.println("Inside Circle");
+    }
+
+    public void res(){
+        System.out.println("Hii");
     }
 }
